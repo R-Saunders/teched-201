@@ -27,3 +27,10 @@ This site is set up to contain my reading notes for Code 201 of the [Tech Educat
 This will contain observations, notes and `code` examples as well.
 
 ### [Reading notes for code 102 can be found here](https://r-saunders.github.io/reading-notes/)
+```json
+{
+  "Company": Tech Educators;
+  "Course Provider": CodeFellows;
+  "Course": Code 102;
+  }
+```
