@@ -31,6 +31,6 @@ This will contain observations, notes and `code` examples as well.
 {
   "Company": Tech Educators;
   "Course Provider": CodeFellows;
-  "Course": Code 102;
+  "Course": Code 201;
   }
 ```
