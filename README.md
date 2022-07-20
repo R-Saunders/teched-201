@@ -29,8 +29,8 @@ This will contain observations, notes and `code` examples as well.
 ### [Reading notes for code 102 can be found here](https://r-saunders.github.io/reading-notes/)
 ```json
 {
-  "Company": Tech Educators;
-  "Course Provider": CodeFellows;
-  "Course": Code 201;
+  "Company": techEducators;
+  "Course Provider": codeFellows;
+  "Course": code201;
   }
 ```
