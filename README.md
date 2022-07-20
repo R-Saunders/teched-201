@@ -26,7 +26,19 @@ This site is set up to contain my reading notes for Code 201 of the [Tech Educat
 
 This will contain observations, notes and `code` examples as well.
 
+## Things I want to know more about.
+
+- [ ] HTML Elements
+- [ ] CSS Media Queries
+- [ ] API's
+- [ ] JSON
+- [ ] React
+- [ ] Nodejs
+- [ ] Express
+- [ ] MongoDB
+
 ### [Reading notes for code 102 can be found here](https://r-saunders.github.io/reading-notes/)
+
 ```json
 {
   "Company": techEducators;
