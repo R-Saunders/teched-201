@@ -4,21 +4,21 @@
 
 |Table of contents|
 |-----------------|
-|[Class 01]()|
-|[Class 02]()|
-|[Class 03]()|
-|[Class 04]()|
-|[Class 05]()|
-|[Class 06]()|
-|[Class 07]()|
-|[Class 08]()|
-|[Class 09]()|
-|[Class 10]()|
-|[Class 11]()|
-|[Class 12]()|
-|[Class 13]()|
-|[Class 14]()|
-|[Class 15]()|
+|[Class 01](https://r-saunders.github.io/teched-201/class-01)|
+|[Class 02](https://r-saunders.github.io/teched-201/class-02)|
+|[Class 03](https://r-saunders.github.io/teched-201/class-03)|
+|[Class 04](https://r-saunders.github.io/teched-201/class-04)|
+|[Class 05](https://r-saunders.github.io/teched-201/class-05)|
+|[Class 06](https://r-saunders.github.io/teched-201/class-06)|
+|[Class 07](https://r-saunders.github.io/teched-201/class-07)|
+|[Class 08](https://r-saunders.github.io/teched-201/class-08)|
+|[Class 09](https://r-saunders.github.io/teched-201/class-09)|
+|[Class 10](https://r-saunders.github.io/teched-201/class-10)|
+|[Class 11](https://r-saunders.github.io/teched-201/class-11)|
+|[Class 12](https://r-saunders.github.io/teched-201/class-12)|
+|[Class 13](https://r-saunders.github.io/teched-201/class-13)|
+|[Class 14](https://r-saunders.github.io/teched-201/class-14)|
+|[Class 15](https://r-saunders.github.io/teched-201/class-15)|
 
 ## What is this website?
 
