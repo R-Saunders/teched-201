@@ -84,3 +84,27 @@ Specifying a description that includes keywords relating to the content of your 
 The `<meta>` tag is used to specify metadata that cannot be represented by other HTML meta-related elements like `<base>` `<link>` `<script>` or `<title>`.  
 The `<meta>` tag does not include any content and is only comprised of the tag itself and it's attributes. The attributes are what is used to definte the purpose of the tag. You may included information such as a page description, the relevant charset and many other things.  
 
+## Designing a website
+
+When it comes to desiging a website there are many different things to consider. A lot of people often focus on the technical side and we must be familiar with the technique of our craft but what rally matters is what you want to achieve. Projects are more likely to fail due to a lack of vision rathr than a lack of technical smarts.  
+
+The first thing to do is a little something call project ideation. Start with these three questions.  
+1. What exactly do I want to accomplish?
+2. How will a website help me reach my goals?
+3. What need to be done, and in what order, to reach my goals?
+
+Write down all the answers to help create your vision and remember the 'What do I want to accomplish?' is the single most important question of them all.
+
+## Semantics
+
+Semantic tags are very important in HTML. They provide more information to the browser than just the content and how it should be styled. Semantic tags such as a `<h1>` will tell the broswer that is is;  
+1. A heading.
+2. The top level heading on the page.
+
+This provides many benefits such as making it more accessible and providing a more pleasant user experience.
+
+## What is Javascript.
+JavaScript was initially created to “make web pages alive”, to give them functionality.
+The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads or when an event is triggered. They allow you manipulate the DOM to give the functionality desired.
+
+You can add Javascript by using the `<script></script>` tags in HTML.
