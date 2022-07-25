@@ -1,3 +1,5 @@
+'use strict';
+
 let name = prompt("What is your name?");
 alert("Good day to you " + name);
 document.getElementById("greeting").innerHTML = "Hello " + name + " I have some questions for you!";
