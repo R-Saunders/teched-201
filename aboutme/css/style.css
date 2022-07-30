@@ -7,7 +7,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    max-width: 100%;
+    width: 100%;
+    min-height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,6 +46,8 @@ body {
 
 #hero_container {
     position: relative;
+    max-height: 90vh;
+    overflow: hidden;
 }
 
 #hero_tagline {
