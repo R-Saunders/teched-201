@@ -27,14 +27,14 @@ body {
 }
 
 #logo {
-    height: 8vh;
-    border-radius: 35px;
+    height: 5vh;
+    border-radius: 2.5vh;
     margin: 0 1em;
 }
 
 #title {
     margin: 0;
-    font-size: 8vh;
+    font-size: 5vh;
     font-weight: 700;
     color: #000;
     background-color: #B3FFF7;
