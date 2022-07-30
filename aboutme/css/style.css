@@ -7,17 +7,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    position: absolute;
-    min-width: 100vw;
-    max-width: 100vw;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #B3FFF7;
+}
+
+body {
+    margin: 0;
 }
 
 .hero {
-    width: 100vw;
+    max-width: 100%;
 }
 
 #logo {
@@ -27,16 +30,29 @@ header {
 }
 
 #title {
-    margin: 0 1em;
-    text-shadow: 1px 1px 3px darkslategrey;
-    font-size: 10vw;
+    margin: 0;
+    font-size: 4em;
     font-weight: 700;
     color: #000;
-    background: #fff;
+    background-color: #B3FFF7;
     mix-blend-mode: lighten;
 }
 
 #title_bg {
     background: url(https://miro.medium.com/max/1400/1*eBZfXMuE72uCDtjUZEzZHQ.gif) center;
     background-size: cover;
+}
+
+#hero_container {
+    position: relative;
+}
+
+#hero_tagline {
+    position: absolute;
+    margin: 0;
+    bottom: 1rem;
+    left: 1rem;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-size: 2em;
 }
