@@ -67,3 +67,8 @@ main {
     text-shadow: 1px 1px 5px black;
     font-size: 2em;
 }
+
+#content_container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
