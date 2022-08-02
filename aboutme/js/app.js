@@ -98,5 +98,5 @@ function clicked3(){
 }
 
 function clicked4() {
-	document.getElementById("result").innerHTML = "You got " + result + " out of 7";
+	document.getElementById("result").innerHTML = "You got " + correct + " out of 7";
 }
