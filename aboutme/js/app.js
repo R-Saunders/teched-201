@@ -53,14 +53,14 @@ function clicked2() {
 	for (let i = 4; i > 0; i--) {
 		let q6 = prompt("What year did I finish High School?");
 		let q6Answer = parseInt(q6);
-		let correct = 2006;
-		if (q6Answer === correct) {
-		correct++;
-		alert("Question Six answered correctly.");
+		let q6correct = 2006;
+		if (q6Answer === q6correct) {
+			correct++;
+			alert("Question Six answered correctly.");
 			break;
-		} else if (q6 > correct) {
+		} else if (q6 > q6correct) {
 			alert("Too high!");
-		} else if (q6 < correct) {
+		} else if (q6 < q6correct) {
 			alert("Too low!");
 		}
 		if (i === 1) {
