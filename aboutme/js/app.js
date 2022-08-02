@@ -1,5 +1,6 @@
 'use strict';
 
+var correct = 0;
 
 function clicked() {
 
@@ -10,12 +11,14 @@ function clicked() {
 	let q1 = prompt("Where am I learning to code?").toUpperCase();
 	if (q1 === "TECH EDUCATORS") {
 		alert("Question one answered correctly.");
+		correct++;
 	} else {
 		alert("Wrong Answer, sorry!");
 	};
 
 	let q2 = prompt("Where did I got to school?").toUpperCase();
 	if (q2 === "TAVERHAM" || q2 === "TAVERHAM HIGH SCHOOL" || q2 === "TAVERHAM HIGH") {
+		correct++;
 		alert("Question two answered correctly.");
 	} else {
 		alert("Wrong Answer, sorry!");
@@ -23,6 +26,7 @@ function clicked() {
 
 	let q3 = prompt("Where was my first job?").toUpperCase();
 	if (q3 === "AVIVA") {
+		correct++;
 		alert("Question three answered correctly.");
 	} else {
 		alert("Wrong Answer, sorry!");
@@ -30,6 +34,7 @@ function clicked() {
 
 	let q4 = prompt("Where did I get my Leadership and People Management qualification?").toUpperCase();
 	if (q4 === "WEGROW" || q4 === "WE GROW") {
+		correct++;
 		alert("Question four answered correctly.");
 	} else {
 		alert("Wrong Answer, sorry!");
@@ -37,6 +42,7 @@ function clicked() {
 
 	let q5 = prompt("Do I have any kids?").toUpperCase();
 	if (q5 === "YES" || q5 === "NO") {
+		correct++;
 		alert("Question five answered correctly.");
 	} else {
 		alert("Wrong Answer, sorry!");
@@ -49,7 +55,8 @@ function clicked2() {
 		let q6Answer = parseInt(q6);
 		let correct = 2006;
 		if (q6Answer === correct) {
-			alert("Question Six answered correctly.");
+		correct++;
+		alert("Question Six answered correctly.");
 			break;
 		} else if (q6 > correct) {
 			alert("Too high!");
@@ -78,13 +85,18 @@ function clicked3(){
 			'Valheim',
 		]
 		if (answers.includes(q7)) {
-			alert("Spot on, congrats!");
+		correct++;
+		alert("Spot on, congrats!");
 			break;
 		} else {
-			alert("Incorrect, guess again!");
+			alert("Incorrect, sorry!");
 		} 
 		if (i === 1) {
 			alert("Too many attempts, you could have picked; Dota2, Sid Meier's Civilization VI, Rimworld, Sid Meir's Civilization V, Total War: Warhammer, Stellaris, Total War: Warhammer II, ARK: Survival Evolved, The Elder Scrolls V: Skyrim, Valheim.");
 		}
 	}
+}
+
+function clicked4() {
+	document.getElementById("result").innerHTML = "You got " + result + " out of 7";
 }
