@@ -71,7 +71,7 @@ function clicked2() {
 
 function clicked3(){
 	for (let i = 6; i > onabort; i--) {
-		let q7 = prompt("Name on of my top ten most played games");
+		let q7 = prompt("Name one of my top ten most played games");
 		let answers = [
 			'Dota2',
 			'Sid Meier\'s Civilization VI',
