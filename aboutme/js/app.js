@@ -100,3 +100,8 @@ function clicked3(){
 function clicked4() {
 	document.getElementById("result").innerHTML = "You got " + correct + " out of 7 questions correct!";
 }
+
+function getValue() {
+	var name = document.getElementById("name");
+	document.getElementById("greetings").innerHTML = "Greetings " + name;
+}
