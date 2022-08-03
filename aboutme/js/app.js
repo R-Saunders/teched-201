@@ -4,10 +4,6 @@ var correct = 0;
 
 function clicked() {
 
-	// let name = prompt("What is your name?");
-	// alert("Good day to you " + name);
-	// document.getElementById("greeting").innerHTML = "Hello " + name + " I have some questions for you!";
-
 	let q1 = prompt("Where am I learning to code?").toUpperCase();
 	if (q1 === "TECH EDUCATORS") {
 		alert("Question one answered correctly.");
@@ -102,6 +98,6 @@ function clicked4() {
 }
 
 function getValue() {
-	var name = document.getElementById("name").value;
+	let name = document.getElementById("name").value;
 	document.getElementById("greetings").innerHTML = "Greetings " + name;
 }
