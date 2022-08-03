@@ -102,6 +102,6 @@ function clicked4() {
 }
 
 function getValue() {
-	var name = document.getElementById("name");
+	var name = document.getElementById("name").value;
 	document.getElementById("greetings").innerHTML = "Greetings " + name;
 }
