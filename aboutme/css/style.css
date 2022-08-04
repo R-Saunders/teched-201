@@ -6,6 +6,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+p {
+    font-size: 1.25em;
+    padding: 0 1em 0 0;
+}
+
 header {
     position: fixed;
     z-index: 100;
@@ -36,7 +46,7 @@ main {
 
 #logo {
     height: 4.5em;
-    border-radius: 2.75vh;
+    border-radius: 2.75em;
     margin: 0 1em;
 }
 
@@ -71,4 +81,35 @@ main {
 #content_container {
     margin: 0 auto;
     max-width: 1200px;
+}
+
+#me {
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#me-inner {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+
+#me-image {
+    max-height: 450px;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#work-education {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 50%;
 }
