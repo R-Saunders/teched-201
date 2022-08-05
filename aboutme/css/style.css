@@ -16,6 +16,10 @@ p {
     padding: 0 1em 0 0;
 }
 
+li {
+    font-size: 1.25em;
+}
+
 header {
     position: fixed;
     z-index: 100;
@@ -84,32 +88,51 @@ main {
 }
 
 #me {
-    display: flex;
-    padding: 1em;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
 #me-inner {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    padding: 0 1em;
+    margin: 1em;
     justify-content: space-around;
 }
 
 #me-image {
-    max-height: 450px;
-    width: 50%;
+    max-height: 500px;
+    width: calc(100% - 2em);
     object-fit: cover;
     border-radius: 25px;
     box-shadow: 1px 1px 5px black;
+    margin: 1em;
 }
 
 #work-education {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .card {
-    width: 50%;
+    box-shadow: 1px 1px 3px black;
+    margin: 1em;
+    border-radius: 1em;
+    padding: 0 1em;
+}
+
+#work {
+    background-color: #97E8AF;
+}
+
+#education {
+    background-color: #97C3E8;
+}
+
+#nordev img {
+    max-width: calc(100% - 2em);
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 1px 1px 3px black;
 }
