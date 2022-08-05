@@ -6,6 +6,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+p {
+    font-size: 1.25em;
+    padding: 0 1em 0 0;
+}
+
+li {
+    font-size: 1.25em;
+}
+
 header {
     position: fixed;
     z-index: 100;
@@ -36,7 +50,7 @@ main {
 
 #logo {
     height: 4.5em;
-    border-radius: 2.75vh;
+    border-radius: 2.75em;
     margin: 0 1em;
 }
 
@@ -71,4 +85,54 @@ main {
 #content_container {
     margin: 0 auto;
     max-width: 1200px;
+}
+
+#me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#me-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+    margin: 1em;
+    justify-content: space-around;
+}
+
+#me-image {
+    max-height: 500px;
+    width: calc(100% - 2em);
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px black;
+    margin: 1em;
+}
+
+#work-education {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    box-shadow: 1px 1px 3px black;
+    margin: 1em;
+    border-radius: 1em;
+    padding: 0 1em;
+}
+
+#work {
+    background-color: #97E8AF;
+}
+
+#education {
+    background-color: #97C3E8;
+}
+
+#nordev img {
+    max-width: calc(100% - 2em);
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 1px 1px 3px black;
 }
