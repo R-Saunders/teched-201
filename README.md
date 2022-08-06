@@ -28,8 +28,11 @@ This will contain observations, notes and `code` examples as well.
 
 ## Things I want to know more about.
 
-- [ ] HTML Elements
+This is a list of things I want to know more about and will update as I progress by ticking things off and adding more.
+
+- [x] HTML Elements
 - [ ] CSS Media Queries
+- [ ] CSS variables
 - [ ] API's
 - [ ] JSON
 - [ ] React
