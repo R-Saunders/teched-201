@@ -164,7 +164,11 @@ footer {
     grid-column-gap: 1rem;
 }
 
-#hobbies-image {
+#hobbies-content {
+    width: 100%;
+}
+
+#hobbies-img {
     max-height: 500px;
     width: calc(100% - 2em);
     object-fit: cover;
