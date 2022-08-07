@@ -121,6 +121,7 @@ body {
 #work-education {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
 }
 
 .card {
@@ -154,4 +155,21 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;   
+}
+
+#hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-column-gap: 1rem;
+}
+
+#hobbies-image {
+    max-height: 500px;
+    width: calc(100% - 2em);
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px black;
+    margin: 1em;
+    height: calc(100% - 2em);
 }
