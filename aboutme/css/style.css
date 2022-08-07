@@ -20,6 +20,18 @@ li {
     font-size: 1.25em;
 }
 
+i {
+    font-size: 3em;
+    margin: 1rem;
+}
+
+main {
+    position: relative;
+    top: 10vh;
+    width: 100%;
+    padding-bottom: 10vh;
+}
+
 header {
     position: fixed;
     z-index: 100;
@@ -34,6 +46,8 @@ header {
 
 body {
     margin: 0;
+    position: relative;
+    min-height: 100vh;
 }
 
 main {
@@ -135,4 +149,15 @@ main {
     margin: 1em;
     border-radius: 1em;
     box-shadow: 1px 1px 3px black;
+}
+
+footer {
+    position: absolute;
+    z-index: 10;
+    bottom: -10vh;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
