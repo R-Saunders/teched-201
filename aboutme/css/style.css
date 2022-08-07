@@ -7,13 +7,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: 3em;
-    margin: 0.5em 0;
+    font-size: 2em;
+    margin: 8px 0;
 }
 
 p {
     font-size: 1.25em;
     padding: 0 1em 0 0;
+    margin: 10px 0;
 }
 
 li {
