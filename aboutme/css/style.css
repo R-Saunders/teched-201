@@ -138,9 +138,9 @@ button {
 
 .card {
     box-shadow: 1px 1px 3px black;
-    margin: 1em;
     border-radius: 1em;
     padding: 0 1em;
+    width: calc(100% - 3rem);
 }
 
 #work {
@@ -178,6 +178,7 @@ footer {
 
 #hobbies-content {
     width: 100%;
+    height: 450px;
 }
 
 #hobbies-img {
@@ -187,5 +188,5 @@ footer {
     border-radius: 25px;
     box-shadow: 1px 1px 5px black;
     margin: 1em;
-    height: calc(100% - 2em);
+    height: 450px;
 }
