@@ -1,18 +1,16 @@
  # Class 07
  
 ## Domain Modeling
-Explain why we need domain modeling.
-
+Domain modeling allows us to create a model in code for specific problems. It describes various entities and stores data in properties that encapuslate behavious in mehtods.   
 ## HTML Table Basics
 
-Why should tables not be used for page layouts?
-List and describe 3 different semantic HTML elements used in an HTML <table>.
+Tables are for representing data, not for page layout. Tables are made up of various elements such as table head `thead`, table row `tr` and table data `td`.
 
 ## Introducing Constructors
 
-What is a constructor and what are some advantages to using it?
-How does the term this differ when used in an object literal versus when used in a constructor?
-Object Prototypes Using A Constructor
+Constructors allow us to set top level ojbects with their own built in methods. This makes for a very flexible and powerful way to write our code.   
+Using `this` in a constructor refers to the constructor itself. Using `this` in an object literal refers to the object.
 
-Explain prototypes and inheritance via an analogy from your previous work experience.
-NOTE: This is a very common front end developer interview question
+## Object Prototypes Using A Constructor
+
+refers to the ability to access object properties from another object. We use a JavaScript prototype to add new properties and methods to an existing object constructor. We can then essentially tell our JS code to inherit properties from a prototype. Prototypical inheritance allows us to reuse the properties or methods from one JavaScript object to another through a reference pointer function. This is very useful when we need all object in an array to have the same methods available.
