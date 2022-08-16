@@ -33,6 +33,7 @@ This is a list of things I want to know more about and will update as I progress
 - [x] HTML Elements
 - [ ] CSS Media Queries
 - [ ] CSS variables
+- [ ] Bootstrap
 - [ ] API's
 - [ ] JSON
 - [ ] React
